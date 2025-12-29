@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E\">
+  <link rel=\"stylesheet\" href=\"style.min.css\" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sustentus — From Contact to Fulfilment</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hero-bg { background: radial-gradient(1200px 600px at 80% 20%, rgba(124,58,237,.15), transparent),
+                               radial-gradient(900px 500px at 20% 80%, rgba(59,130,246,.12), transparent),
+                               #0b0b10; }
+    .glass { background: rgba(255,255,255,.06); backdrop-filter: blur(8px); }
+    img.logo { height: 28px; object-fit: contain; }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 antialiased selection:bg-indigo-500/30">
+<header class="sticky top-0 z-40 bg-neutral-950/80 backdrop-blur border-b border-neutral-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="index.html" class="flex items-center gap-2 font-semibold tracking-tight">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
+        <span class="text-lg">Sustentus</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-neutral-300">
+        <a href="product.html" class="hover:text-white">Product</a>
+        <a href="solutions.html" class="hover:text-white">Solutions</a>
+        <a href="pricing.html" class="hover:text-white">Pricing</a>
+        <a href="partners.html" class="hover:text-white">Partners</a>
+        <a href="resources.html" class="hover:text-white">Resources</a>
+        <a href="demo.html" class="hover:text-white">Demo</a>
+        <a href="about.html" class="hover:text-white">About</a>
+        <a href="contact.html" class="hover:text-white">Contact</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="demo.html" class="inline-flex items-center px-3 py-2 rounded-md bg-indigo-600 hover:bg-indigo-500 text-sm font-medium">Start Trial</a>
+      </div>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-neutral-800 hover:bg-neutral-900" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M3.75 6.75h16.5v1.5H3.75zM3.75 11.25h16.5v1.5H3.75zM3.75 15.75h16.5v1.5H3.75z"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobileNav" class="md:hidden hidden border-t border-neutral-800">
+    <div class="px-4 py-3 space-y-2 text-sm">
+      <a href="product.html" class="block py-2">Product</a>
+      <a href="solutions.html" class="block py-2">Solutions</a>
+      <a href="pricing.html" class="block py-2">Pricing</a>
+      <a href="partners.html" class="block py-2">Partners</a>
+      <a href="resources.html" class="block py-2">Resources</a>
+      <a href="demo.html" class="block py-2">Demo</a>
+      <a href="about.html" class="block py-2">About</a>
+      <a href="contact.html" class="block py-2">Contact</a>
+    </div>
+  </div>
+</header>
+<section class="hero-bg border-b border-neutral-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+    <div class="grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-xs uppercase tracking-widest text-neutral-400 mb-3">Unified messaging</p>
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">Customer Success is your next revenue line</h1>
+        <p class="mt-5 text-neutral-300 max-w-xl">Go live in weeks, see impact this quarter — the only commerce platform where every Customer Success activity drives real ARR and NRR.</p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="demo.html" class="inline-flex items-center px-4 py-2 rounded-md bg-indigo-600 hover:bg-indigo-500 font-medium">See Sustentus in action</a>
+          <a href="partners.html" class="inline-flex items-center px-4 py-2 rounded-md border border-neutral-700 hover:bg-neutral-900">Partner With Us</a>
+        </div>
+        <p class="mt-4 text-sm text-neutral-400">Turn “Contact Us” into closed deals with automated onboarding and expert matching.</p>
+        <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div class="glass rounded-lg p-4"><div class="text-2xl font-bold">98%</div><div class="text-xs text-neutral-400">Faster lead processing</div></div>
+          <div class="glass rounded-lg p-4"><div class="text-2xl font-bold">5×</div><div class="text-xs text-neutral-400">Higher conversion rate</div></div>
+          <div class="glass rounded-lg p-4"><div class="text-2xl font-bold">24/7</div><div class="text-xs text-neutral-400">Automated onboarding</div></div>
+          <div class="glass rounded-lg p-4"><div class="text-2xl font-bold">10+</div><div class="text-xs text-neutral-400">Countries served</div></div>
+        </div>
+        <div class="mt-6 text-neutral-300 text-sm max-w-xl"><strong>The Vendor’s Dilemma:</strong> product demand exists, but “Contact Us” stalls the journey. Sustentus closes the gap — qualifying, specifying, and routing every request to fulfilment-ready action.</div>
+      </div>
+      <div class="glass rounded-2xl p-6 border border-neutral-800">
+        <div class="text-sm text-neutral-300 mb-3">How it works</div>
+        <ol class="space-y-4">
+          <li class="flex gap-3"><span class="w-6 h-6 flex items-center justify-center rounded-full bg-indigo-600 text-xs font-bold">1</span><div><div class="font-semibold">Lead submits form</div><div class="text-neutral-400 text-sm">Your prospect raises a hand via your existing contact form.</div></div></li>
+          <li class="flex gap-3"><span class="w-6 h-6 flex items-center justify-center rounded-full bg-indigo-600 text-xs font-bold">2</span><div><div class="font-semibold">AI qualifies & drafts mini‑BRD</div><div class="text-neutral-400 text-sm">Agentic flows extract requirements and generate a fulfilment‑ready brief.</div></div></li>
+          <li class="flex gap-3"><span class="w-6 h-6 flex items-center justify-center rounded-full bg-indigo-600 text-xs font-bold">3</span><div><div class="font-semibold">Expert matched & engaged</div><div class="text-neutral-400 text-sm">Bid pool routes to the best expert/partner; customer hears back fast.</div></div></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- === BEGIN: Integrations carousel (scoped + horizontal) === -->
+<style id="sustentus-carousel-inline">
+  #integrations .logo-viewport{overflow:hidden;position:relative;width:100%}
+  #integrations .logo-track{display:flex;gap:56px;align-items:center;width:max-content;
+    white-space:nowrap;will-change:transform;animation:susScrollReverse 15s linear infinite}
+  #integrations .logo-track.paused{animation-play-state:paused}
+  #integrations .logo{height:32px;width:auto;opacity:0;display:inline-block;
+    animation:susFadeIn .6s ease-in-out forwards}
+  @media (min-width:1024px){ #integrations .logo{height:40px} }
+  @keyframes susScrollReverse{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+  @keyframes susFadeIn{0%{opacity:0}100%{opacity:1}}
+</style>
+
+<section id="integrations" class="border-b border-neutral-800 py-14">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8">
+    <div class="md:w-1/3 w-full">
+      <h3 class="text-sm uppercase tracking-widest text-neutral-400 mb-2">Integrations</h3>
+      <p class="text-xl font-semibold">Integrates seamlessly with leading SaaS ecosystems</p>
+    </div>
+
+    <div class="md:w-2/3 w-full logo-viewport">
+      <div class="logo-track" id="logoTrack">
+        <!-- White logos (mono) -->
+        <img class="logo" src="https://cdn.simpleicons.org/hubspot/ffffff" alt="HubSpot">
+        <img class="logo" src="https://cdn.simpleicons.org/salesforce/ffffff" alt="Salesforce">
+        <img class="logo" src="https://cdn.simpleicons.org/zendesk/ffffff" alt="Zendesk">
+        <img class="logo" src="https://cdn.simpleicons.org/servicenow/ffffff" alt="ServiceNow">
+        <img class="logo" src="https://cdn.simpleicons.org/microsoft/ffffff" alt="Microsoft">
+        <img class="logo" src="https://cdn.simpleicons.org/xero/ffffff" alt="Xero">
+        <img class="logo" src="https://cdn.simpleicons.org/google/ffffff" alt="Google">
+        <img class="logo" src="https://cdn.simpleicons.org/slack/ffffff" alt="Slack">
+        <!-- duplicate sequence for seamless loop -->
+        <img class="logo" src="https://cdn.simpleicons.org/hubspot/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/salesforce/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/zendesk/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/servicenow/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/microsoft/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/xero/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/google/ffffff" alt="" aria-hidden="true">
+        <img class="logo" src="https://cdn.simpleicons.org/slack/ffffff" alt="" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Auto-pause when the carousel is off-screen (avoids motion/jank)
+  (function(){
+    var track = document.getElementById('logoTrack');
+    if (!track || !('IntersectionObserver' in window)) return;
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ track.classList.toggle('paused', !e.isIntersecting); });
+    }, { threshold: 0.01 });
+    io.observe(track);
+  })();
+</script>
+<!-- === END: Integrations carousel === -->
+
+<section class="py-14 border-t border-neutral-800">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h3 class="text-2xl font-bold">Ready to see it?</h3>
+    <p class="mt-2 text-neutral-300">Run the Playground or book a live session with our team.</p>
+    <div class="mt-6 flex flex-wrap justify-center gap-3">
+      <a href="https://demo.sustentus.com" target="_blank" rel="noopener" class="px-4 py-2 rounded-md bg-indigo-600 hover:bg-indigo-500 font-medium">
+        Launch Playground</a>
+      <a href="contact.html" class="px-4 py-2 rounded-md border border-neutral-700 hover:bg-neutral-900">Book Live Demo</a>
+      <a href="partners.html" class="px-4 py-2 rounded-md border border-neutral-700 hover:bg-neutral-900">Partner Program</a>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-neutral-800 py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-sm text-neutral-400">© <span id="year"></span> Sustentus. All rights reserved.</div>
+      <nav class="text-sm text-neutral-400 flex gap-4">
+        <a href="resources.html" class="hover:text-white">Resources</a>
+        <a href="pricing.html" class="hover:text-white">Pricing</a>
+        <a href="partners.html" class="hover:text-white">Partners</a>
+      </nav>
+    </div>
+  </div>
+
+
+<script>
+  (function(){
+    const track = document.getElementById('logoTrack');
+    if (!track || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e => track.classList.toggle('paused', !e.isIntersecting));
+    }, { threshold: 0.01 });
+    io.observe(track);
+  })();
+</script>
+
+</footer>
+<script>
+  const btn = document.getElementById('menuBtn');
+  const mobile = document.getElementById('mobileNav');
+  btn?.addEventListener('click', () => mobile.classList.toggle('hidden'));
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
